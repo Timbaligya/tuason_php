@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tuason Menu</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Manage</a></li>
+            <li><a href="#">Menu</a></li>
+        </ul>
+    </nav>
+    <h1>Tuason Menu</h1>
+    <form>
+        <div class="form-group">
+            <label for="menuName">Menu Name</label>
+            <input type="text" id="menuName" name="menuName" required>
+        </div>
+        <div class="form-group">
+            <label for="menuDescription">Menu Description</label>
+            <input type="text" id="menuDescription" name="menuDescription" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
